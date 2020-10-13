@@ -1,0 +1,125 @@
+.body{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin:0;
+	padding:0;
+}
+
+#container {
+	background-color:#c1d9ff;
+}
+#header {
+	background-image:url('../img/waves.jpg');
+	background-size: cover;	
+	background-attachment: fixed;
+	background-position: right;
+	overflow: hidden;
+	background-repeat: repeat-x;
+	height: 50px;
+}
+#mainmenu {
+	text-align: left;
+	background: #4a76a8;
+	width: 100%;
+	overflow: hidden;
+	height: 100px;
+	font-size: 180%;
+}
+#mainmenu ul li {
+	
+	display: inline;
+	padding-left: 0px;
+}
+#mainmenu ul li a {
+	margin-left: 100px;
+	text-decoration:none;
+	color: #000000;
+}
+#mainmenu:hover{
+	background-color:#5a92ce;
+	text-decoration: none;	
+}
+#content {	
+	width: 100%;
+	height: 1360px;
+}
+#first_title{
+	width: 65%;
+	margin-left: 10%;
+}
+.post{
+	border-style: solid;
+	width: 65%;
+	height: 240px;
+	margin-left: 10%;
+	margin-bottom: 10px;
+}
+.post:hover{
+	box-shadow: 3px 3px 7px #000000;
+	background-image: url('../img/waves.jpg');
+	background-size: cover;
+}
+.picture{
+
+	overflow: hidden;
+	border-style: solid;
+	position: absolute;
+	width: 15%;
+	margin: 10px;
+	height: 215px;
+	
+}
+#picture1{
+	background: url('../img/New1.jpg')  no-repeat center;
+	background-size:cover;
+}	
+#picture2{
+	background: url('../img/New2.jpg')  no-repeat center;
+	background-size: cover;
+}
+#picture3{
+	background: url('../img/New3.png')  no-repeat center;
+	background-size: cover;
+}
+#picture4{
+	background: url('../img/New4.png')  no-repeat center;
+	background-size:cover;
+	background-position: top;
+}
+#picture5	{
+	background: url('../img/New5.jpg')  no-repeat center;
+	background-size: cover;
+	background-position: center;
+	
+}
+.block_text{
+	position: relative;
+	border-style: solid;
+	margin: 10px;
+	width: 72%;
+	height: 215px;
+	left: 25%;
+
+}
+.textt{
+	text-decoration: none;
+	color: #000000;
+}
+.textt:hover{
+	text-decoration: blink;
+	color: #0000a8;	
+}
+#footer {
+	text-align: center;
+	background:#4a76a8;
+	width: 100%;
+	height: 40px;
+}
+#footer ul li{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 10px;
+	border: 0px;
+	margin: 0;
+
+}
