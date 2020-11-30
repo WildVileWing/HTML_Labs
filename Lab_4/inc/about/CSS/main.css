@@ -1,0 +1,9 @@
+#FormCentr{
+	margin-top: 180px;
+	margin-left: 50px;
+	padding: 35px;
+	border: 5px solid #000000;
+	border-radius: 4px;
+	background-image: linear-gradient(125deg, rgba(255,255,0,.9), rgba(0,255,0,0) 70%),
+                      linear-gradient(335deg, rgba(0,255,255,.9), rgba(0,0,255,0) 70%);                     
+}
