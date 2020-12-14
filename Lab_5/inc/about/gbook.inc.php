@@ -37,14 +37,16 @@
 							</tr>
 							<?php
 							include "bd.php";
+							if (getALL() != NULL) {
 								foreach (getAll() as $row) {
-									echo 
+									echo
 									"<tr>
 									<td>". $row["name"]	. "</td>
 									<td>". $row["email"]. "</td>
 									<td>". $row["text"] . "</td>
 									</tr>";
 								}
+							}
 							?>
 						</table>
 					</div>

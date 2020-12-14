@@ -10,6 +10,6 @@
 		
 		save($name, $email, $text);
 		
-		header("Location: ../index.php?id=gbook");
+		header("Location: index.php?id=gbook");
 	}
 ?>
